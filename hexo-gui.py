@@ -50,14 +50,6 @@ class HexoUploader:
                                      font=("Arial", 12))
         paper_radio.pack(side=tk.LEFT)
 
-        # 创建文章标题输入部分
-        # title_frame = tk.Frame(master, bg="gray")
-        # title_frame.pack(pady=10)
-        # title_label = tk.Label(title_frame, text="文章标题:", bg="gray", font=("Arial", 12))
-        # title_label.pack(side=tk.LEFT, padx=10)
-        # self.title_entry = tk.Entry(title_frame, width=30, font=("Arial", 12))
-        # self.title_entry.pack(side=tk.LEFT)
-
         # 创建文章标题输入部分和生成文章图标
         title_frame = tk.Frame(master, bg="gray")
         title_frame.pack(pady=10)
