@@ -14,11 +14,11 @@
 
 可以使用pyinstaller将脚本转换为一个可执行的二进制文件,这样可以在桌面直接完成hexo的简单操作
 具体方式为
-在指定目录下
+在您的脚本的当前目录下
 
 ```python
 pip install pyinstaller
-pyinstaller -F script.py
+pyinstaller -F ./hexo-gui.py
 
 ```
 
